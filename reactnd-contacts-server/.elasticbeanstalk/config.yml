@@ -1,0 +1,19 @@
+branch-defaults:
+  lesson-2-exercise-1:
+    environment: Test3-env
+environment-defaults:
+  Test3-env:
+    branch: null
+    repository: null
+global:
+  application_name: test3
+  default_ec2_keyname: null
+  default_platform: Node.js 12 running on 64bit Amazon Linux 2
+  default_region: us-east-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  sc: git
+  workspace_type: Application
